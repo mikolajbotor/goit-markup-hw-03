@@ -1,3 +1,7 @@
+body a{
+    text-decoration: none;
+}
+
 header{
     position: absolute;
     width: 100%;
@@ -5,7 +9,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: green;
+    background-color: lightgreen;
 }
 
 header .logo-and-menu{
@@ -17,20 +21,29 @@ header .logo-and-menu{
     background-color: cyan;
 }
 
-header .logo-and-menu a{
-    text-decoration: none;
-}
-
 header .logo-and-menu a h2 span{
-    color: black;
+    color: #000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    letter-spacing: 0.03em;
 }
 
 header .logo-and-menu a h2 span:first-child{
-    color: red;
+    color: #2196f3  ;
 }
 
 header .logo-and-menu nav a{
-    background-color: yellow;
+    color: #000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 header .contact{
@@ -40,4 +53,17 @@ header .contact{
     flex-direction: row;
     justify-content: space-between;
     background-color: cyan;
+
+}
+
+header .contact a{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+header .contact a:hover{
+    color: #2196f3;
 }
