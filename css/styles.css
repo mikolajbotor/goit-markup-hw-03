@@ -1,0 +1,229 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
+}
+
+a{
+    text-decoration: none;
+    color:black
+    }
+
+header{
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    border: 1px solid #ECECEC;
+}
+
+.logo-header{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;
+}
+
+.logo-header:hover{
+    color:#212121;
+}
+
+nav{  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+
+.contact a{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+
+}
+
+.contact-mail{
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+
+}
+
+.contact-phone{
+    position: absolute;
+    width: 110px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+}
+
+.order-field{
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+
+background: #2F303A;
+}
+
+.lorem-ipsum{
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 774px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+}
+
+.our-team{
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+
+    background: #F5F4FA;
+}
+
+.photos li{
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.photos p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.photos b{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+
+footer{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    background: #2F303A;
+}
+
+.logo-footer{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;
+}
+
+footer address {
+    position: absolute;
+    width: 247px;
+    height: 21px;
+    left: 215px;
+    top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+footer .contact-mail{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 60px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+
+    color: #757575
+}
+
+footer .contact-phone{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 90px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+
+    color: #757575
+}
