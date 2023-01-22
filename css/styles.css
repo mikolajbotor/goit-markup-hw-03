@@ -12,7 +12,6 @@ body{
 
 a{
     text-decoration: none;
-    color:black
     }
 
 .menu{
@@ -42,7 +41,7 @@ a{
     color: #2196F3;
 }
 
-.menu .logo-header :hover{
+.menu .logo-header-wrapper:hover .logo-header{
     color: #000;
 }
 
