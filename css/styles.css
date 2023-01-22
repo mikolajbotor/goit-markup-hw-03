@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -9,17 +15,17 @@ a{
     color:black
     }
 
-header{
+.menu{
     position: absolute;
     width: 1600px;
     height: 80px;
     left: 0px;
     top: 0px;
-    background-color: #ffffff;
-    border: 1px solid #ECECEC;
+    border: 2px solid red;
+    color:#FFFFFF;
 }
 
-.logo-header{
+.menu .logo-header{
     position: absolute;
     width: 145px;
     height: 31px;
@@ -37,8 +43,8 @@ header{
     color: #2196F3;
 }
 
-.logo-header:hover{
-    color:#212121;
+.menu .logo-header :hover{
+    color: #000;
 }
 
 nav{  
@@ -50,6 +56,12 @@ nav{
     letter-spacing: 0.02em;
     
     color: #212121;
+}
+
+nav li{
+    margin: 50px;
+
+    display: flex;
 }
 
 .contact a{
@@ -81,42 +93,62 @@ color: #757575;
     top: 32px;
 }
 
-.order-field{
+header{
     position: absolute;
     width: 1600px;
     height: 600px;
     left: 0px;
     top: 80px;
 
-background: #2F303A;
+    background: #2F303A;
 }
 
-.lorem-ipsum{
-    position: absolute;
-    width: 270px;
-    height: 16px;
-    left: 215px;
-    top: 774px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-    color: #212121;
+header h1{
+    padding: 200px 452px 30px 452px;
+    color:#FFFFFF;
+    text-align: center;
 }
 
-.our-team{
+header button{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    margin: 30px 700px 200px 700px;
+}
+
+main{
     position: absolute;
     width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
+    height: 1417px;
+    padding-top: 680px;
+}
 
-    background: #F5F4FA;
+.our-features{
+    position: absolute;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+}
+
+.our-features h2{
+    width: 217px;
+    height: 16px;
+    color: #212121;
+    font-weight: 700;
+    display: inline;
+}
+
+.our-features li{
+    width: 270px;
+    height: 75px;
+    display: inline-block;
+}
+
+.photos{
+    position: absolute;
+    margin-top: 381px ;
 }
 
 .photos li{
@@ -124,6 +156,7 @@ background: #2F303A;
 
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    display: inline;
 }
 
 .photos p{
@@ -148,10 +181,25 @@ background: #2F303A;
     color: #212121;
 }
 
+.our-team{
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+
+    background: #F5F4FA;
+}
+
+.our-team li{
+    display: inline-block;
+}
+
 footer{
     position: absolute;
     width: 1600px;
     height: 252px;
+    top: 2097px;
     left: 0px;
     background: #2F303A;
 }
