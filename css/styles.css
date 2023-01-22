@@ -21,7 +21,6 @@ a{
     height: 80px;
     left: 0px;
     top: 0px;
-    border: 2px solid red;
     color:#FFFFFF;
 }
 
@@ -58,10 +57,14 @@ nav{
     color: #212121;
 }
 
-nav li{
-    margin: 50px;
+nav ul{
+    margin-left: 500px;
+}
 
-    display: flex;
+nav li{
+    margin-top: 32px;
+    margin-left: 10px;
+    display:inline-block;
 }
 
 .contact a{
@@ -74,6 +77,10 @@ letter-spacing: 0.02em;
 
 color: #757575;
 
+}
+
+.contact a:hover{
+    color: #2196F3;
 }
 
 .contact-mail{
